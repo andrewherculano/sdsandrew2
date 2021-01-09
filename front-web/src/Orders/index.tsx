@@ -8,7 +8,7 @@ import ProductsList from "./ProductsList";
 import StepsHeader from "./StepsHeader";
 import "./styles.css";
 import { OrderLocationdata, Product } from "./types";
-import { toast, ToastContainer} from 'react-toastify';
+import {toast} from 'react-toastify';
 
 function Orders() {
   const [products, setProducts] = useState<Product[]>([]);
